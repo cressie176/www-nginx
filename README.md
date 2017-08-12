@@ -1,5 +1,5 @@
 # www-nginx
-Reverse proxy for the Node.js app which serves *.stephen.cresswell.net
+Reverse proxy for the Node.js app which serves www.stephen.cresswell.net
 
 ## Features
 * Forces upgrade to SSL
