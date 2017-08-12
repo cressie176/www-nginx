@@ -1,4 +1,5 @@
 # www-nginx
+[![Docker Repository on Quay](https://quay.io/repository/cressie176/www-nginx/status "Docker Repository on Quay")](https://quay.io/repository/cressie176/www-nginx)</br>
 Reverse proxy for the Node.js app which serves www.stephen.cresswell.net
 
 ## Features
