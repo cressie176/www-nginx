@@ -11,6 +11,6 @@ RUN mkdir -p /etc/nginx/sites-enabled
 
 # RUN ln -sf /etc/nginx/sites-available/local.conf /etc/nginx/sites-enabled/local.conf
 RUN ln -sf /etc/nginx/sites-available/stage.conf /etc/nginx/sites-enabled/stage.conf
-# RUN ln -sf /etc/nginx/sites-available/live.conf /etc/nginx/sites-enabled/live.conf
+RUN ln -sf /etc/nginx/sites-available/live.conf /etc/nginx/sites-enabled/live.conf
 
 EXPOSE 80 443
