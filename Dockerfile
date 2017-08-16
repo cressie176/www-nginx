@@ -1,7 +1,7 @@
 FROM nginx:alpine
 
 ADD container-files/etc/nginx/nginx.conf /etc/nginx/
-ADD container-files/etc/nginx/proxy.conf /etc/nginx/
+ADD container-files/etc/nginx/snippets/* /etc/nginx/snippets/
 ADD container-files/etc/nginx/sites-available/* /etc/nginx/sites-available/
 
 RUN mkdir -p /etc/nginx/sites-enabled
